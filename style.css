@@ -50,14 +50,14 @@ body {
   
   .menu-bar ul li a {
     font-size: 20px;
-    color: var(--accent-color);
+    color: var(--text-color);
     text-decoration: none;
   
     transition: all 0.3s;
   }
   
   .menu-bar ul li a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
   }
   
   .fas {
@@ -76,7 +76,7 @@ body {
     position: absolute;
     left: 0;
     top: 100%;
-    background-color: var(--text-color);
+    background-color: var(--background-color);
   }
   
   .menu-bar ul li:hover .dropdown-menu ul {
@@ -98,7 +98,7 @@ body {
     position: absolute;
     left: 150px;
     top: 0;
-    background-color: var(--text-color);
+    background-color: var(--background-color);
   }
   
   .hero {
