@@ -24,12 +24,12 @@ body {
   }
   
   .menu-bar {
-    background-color: var(--background-color);
+    background-color: var(--accent-color);
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     padding: 0 5%;
     position: relative;
   }
@@ -40,10 +40,10 @@ body {
   }
   
   .menu-bar ul li {
-    /* width: 120px; */
-    padding: 10px 30px;
+    /*width: 240px;*/
+    padding: 20px 30px 10px 30px;
     /* text-align: center; */
-    position: relative;
+    position:relative;
   }
   
   .menu-bar ul li a {
@@ -55,12 +55,6 @@ body {
   
   .menu-bar ul li a:hover {
     color: var(--secondary-color);
-  }
-  
-  .fas {
-    float: right;
-    margin-left: 10px;
-    padding-top: 3px;
   }
   
   .hero {
